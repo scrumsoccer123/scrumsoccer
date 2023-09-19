@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.css" >
+  <link rel="stylesheet" href="./css/estilos.css" >
+
+
+  <script src="./js/codigo.js" ></script>
+  <script src="./js/jquery.js" ></script>
+
+  <script src="./js/bootstrap.js" ></script>
+  <script src="./js/bootstrap.bundle.js" ></script>
+
+  <link href='./calendario/packages/core/main.css' rel='stylesheet' />
+  <link href='./calendario/packages/list/main.css' rel='stylesheet' />
+  <script src='./calendario/packages/core/main.js'></script>
+  <script src='./calendario/packages/list/main.js'></script>
+  <script src="./js/calendario.js"></script>
+
+  <style>
+
+  #calendar {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+</style>
+<title>Soccer Play</title>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="titulo shadow-sm p-3 mb-5 bg-white rounded">
+    <h1 class="titulo2">Scrum Soccer</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="./Inicio.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./quienes_somos.html">Quienes Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sedes.html">Sedes</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" onclick="Devolver()" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Nuestros Torneos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="./futbol.html">Futbol</a>
+              <a class="dropdown-item" href="./futbol8.html">Futbol 8</a>
+              <a class="dropdown-item" href="./futbol5.html">Futbol 5</a>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </div>  
+
+  <hr>
+  <h1 style="text-align: center;" >Futbol 5</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm ">
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Inscripcion Torneo</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre equipo">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Categoria</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Infantil</option>
+              <option>juvenil</option>
+              <option>Adultos</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Responsable</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre Representante equipo">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Telefono Contacto</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Telefono Contacto">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email Contacto</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Contacto">
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Inscribir</button>
+        </form>
+      </div>
+
+      <div class="col-sm ">
+
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Reglas del torneo</h5>
+            <p class="card-text"> 
+
+              INCUMPLIMIENTO. Todo equipo que se inscriba y que por alguna circunstancia se retire del Torneo, la organización no reembolsará dinero alguno
+
+              PARTICIPANTES. Podrán Participar en el Torneo todos los que deseen hacerlo, siempre y cuando cumplan con los requerimientos exigidos por la organización.
+
+              -No podrán participar jugadores de alto rendimiento
+              -Equipos con antecedentes de agresión a los árbitros
+            -Equipos que hayan participado de manera grave en peleas o batallas campales.</p>
+          </div>
+        </div>
+
+      </div>
+
+      
+  </div>
+  <a href="tel:321437890">
+    <img src="./img/cel.png" class="flotante" width="70px" height="70px">
+  </a>
+
+  <br>
+  <hr>
+  <footer>
+    <a href="tel:321437890">
+      <img src="./img/cel.png" class="flotante" width="70px" height="70px">
+    </a>
+    <a class="navbar-brand right" href="https://www.facebook.com/" target="_blank">
+      <img src="img/facebook.jpg" width="25" height="25" class="d-inline-block align-top" alt="">
+    </a>
+    <a class="navbar-brand" href="https://twitter.com/?lang=es" target="_blank">
+      <img src="img/twitter.jpg" width="25" height="25" class="d-inline-block align-top" alt="">
+    </a>
+    <a class="navbar-brand" href="https://www.instagram.com/?hl=es-la" target="_blank">
+      <img src="img/instagram.jpg" width="25" height="25" class="d-inline-block align-top" alt="">
+    </a>
+    <a class="navbar-brand" href="https://www.youtube.com/" target="_blank">
+      <img src="img/youtube.jpg" width="25" height="25" class="d-inline-block align-top" alt="">
+    </a>
+    <p><small>powered by <a href="./poweredby.html">Technoweb</a></small></p>
+  </footer>
+
+<script src="js/codigo.js" ></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

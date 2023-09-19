@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/estilos.css" >
+  <title>Soccer Play</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="titulo shadow-sm p-3 mb-5 bg-white rounded">
+    <h1 class="titulo2">Scrum Soccer</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="./Inicio.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./quienes_somos.html">Quienes Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sedes.html">Sedes</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" onclick="Devolver()" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Nuestros Torneos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="./futbol.html">Futbol</a>
+              <a class="dropdown-item" href="./futbol8.html">Futbol 8</a>
+              <a class="dropdown-item" href="./futbol5.html">Futbol 5</a>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+    
+  </div>
+<!-- Galeria -->
+
+  <h1><center>Visita nuestras sedes</center</h1>
+  
+  <ul class="galeria">
+    <li><a href="#img1"><img src="https://recreasport.com/wp-content/uploads/2017/04/SAM_0191-2.jpg"></a></li>
+    <li><a href="#img2"><img src="https://portaplast.co/images/contenidos/canchas-futbol.jpg"></a></li>
+    <li><a href="#img3"><img src="https://pixabay.com/es/photos/f%C3%BAtbol-deporte-pelota-campo-3471402/"></a></li>
+    <li><a href="#img4"><img src="http://www.muy-futbol.com.ar/wp-content/uploads/2013/03/instalaciones_futbol.jpg"></a></li>
+  </ul>
+
+  <div class="modal" id="img1">
+    <h3>Sede Fontibon</h3>
+    <div class="imagen">
+      <a href="#img4">&#60;</a>
+      <a href="#img2"><img src="https://deportesimagenes.canalrcn.com/ImgDeportes/fut_femenino.jpg"></a>
+      <a href="#img2">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+  
+  <div class="modal" id="img2">
+    <h3>Sede Mosquera</h3>
+    <div class="imagen">
+      <a href="#img1">&#60;</a>
+      <a href="#img3"><img src="https://www.infobae.com/new-resizer/YfqfoueLWpUJgE2HGHUV1xvRLfs=/750x0/filters:quality(100)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/04/01171843/Futbol-chino-estados-unidos-sf-2.jpg"></a>
+      <a href="#img3">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+  
+  <div class="modal" id="img3">
+    <h3>Sede Chicó norte</h3>
+    <div class="imagen">
+      <a href="#img2">&#60;</a>
+      <a href="#img4"><img src="https://www.fundeu.es/wp-content/uploads/2011/02/F%C3%BAtbol-Srdjan-Suki.jpg"></a>
+      <a href="#img4">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+  
+  <div class="modal" id="img4">
+    <h3>Sede Facativa</h3>
+    <div class="imagen">
+      <a href="#img3">&#60;</a>
+      <a href="#img1"><img src="https://www.futnavarra.es/wp-content/uploads/2019/05/Copia-de-F%C3%BAtbol-y-F%C3%BAtbol-Sala-23-1170x658.png"></a>
+      <a href="#img1">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+  <ul class="galeria">
+    <li><a href="#img1"><img src="https://static01.diariodenavarra.es/uploads/imagenes/bajacalidad/2016/12/18/_amaya_3176df96.jpg?8ea6fc0f2a298b1ae9b4835f01e49143"></a></li>
+    <li><a href="#img2"><img src="https://i.avoz.es/sc/fY2jQsvBFAbvUX3QolwDqpYboLc=/x/2018/08/03/00121533325082335539252/Foto/i03g8089.jpg"></a></li>
+    <li><a href="#img3"><img src="img/campo 2.jpg"></a></li>
+    <li><a href="#img4"><img src="http://navarrafutbolindoor.com/wp-content/themes/navarraFutbol/img/imgHome1.jpg"></a></li>
+  </ul>
+
+  <div class="modal" id="img1">
+    <h3>Sede Fontibon</h3>
+    <div class="imagen">
+      <a href="#img4">&#60;</a>
+      <a href="#img2"><img src="https://deportesimagenes.canalrcn.com/ImgDeportes/fut_femenino.jpg"></a>
+      <a href="#img2">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+  
+  <div class="modal" id="img2">
+    <h3>Sede Mosquera</h3>
+    <div class="imagen">
+      <a href="#img1">&#60;</a>
+      <a href="#img3"><img src="https://www.infobae.com/new-resizer/YfqfoueLWpUJgE2HGHUV1xvRLfs=/750x0/filters:quality(100)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/04/01171843/Futbol-chino-estados-unidos-sf-2.jpg"></a>
+      <a href="#img3">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+  
+  <div class="modal" id="img3">
+    <h3>Sede Chicó norte</h3>
+    <div class="imagen">
+      <a href="#img2">&#60;</a>
+      <a href="#img4"><img src="https://www.fundeu.es/wp-content/uploads/2011/02/F%C3%BAtbol-Srdjan-Suki.jpg"></a>
+      <a href="#img4">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+  
+  <div class="modal" id="img4">
+    <h3>Sede Facativa</h3>
+    <div class="imagen">
+      <a href="#img3">&#60;</a>
+      <a href="#img1"><img src="https://www.futnavarra.es/wp-content/uploads/2019/05/Copia-de-F%C3%BAtbol-y-F%C3%BAtbol-Sala-23-1170x658.png"></a>
+      <a href="#img1">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+  
+
+  
+<!-- Pie de pagina -->  
+<br>
+<hr>
+<footer>
+  <a href="tel:321437890">
+    <img src="./img/cel.png" class="flotante" width="70px" height="70px">
+  </a>
+  <a class="navbar-brand right" href="https://www.facebook.com/" target="_blank">
+    <img src="img/facebook.jpg" width="25" height="25" class="d-inline-block align-top" alt="">
+  </a>
+  <a class="navbar-brand" href="https://twitter.com/?lang=es" target="_blank">
+    <img src="img/twitter.jpg" width="25" height="25" class="d-inline-block align-top" alt="">
+  </a>
+  <a class="navbar-brand" href="https://www.instagram.com/?hl=es-la" target="_blank">
+    <img src="img/instagram.jpg" width="25" height="25" class="d-inline-block align-top" alt="">
+  </a>
+  <a class="navbar-brand" href="https://www.youtube.com/" target="_blank">
+    <img src="img/youtube.jpg" width="25" height="25" class="d-inline-block align-top" alt="">
+  </a>
+  <p><small>powered by <a href="./poweredby.html">Technoweb</a></small></p>
+</footer>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
